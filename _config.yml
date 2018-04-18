@@ -1,9 +1,9 @@
 # ----------- CONFIGURABLE START -----------
-title:            "LiberXue|FullStack|独立开发者|jekyll blog|GitHub blog"
+title:            "Hang's blog"
 description:      "Full Stack独立开发者|欢迎来到 LiberXue「角落」侃侃理想、谈谈人生、敲敲代码。"
 url:              https://HangForFreedom.github.io # 域名
 signoff:          "HangForFreedom" # Your name
-facebook_appid:   #liberxue
+facebook_appid:   
 google_analytics: UA-101222464-1
 share:            true 
 # 分页
@@ -28,6 +28,9 @@ links:
     external:     false
   - name:         关于
     url:          /about
+    external:     false
+  - name:         案例
+    url:          /another
     external:     false
 # ------------ CONFIGURABLE END ------------
 
