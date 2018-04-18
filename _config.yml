@@ -29,9 +29,6 @@ links:
   - name:         关于
     url:          /about
     external:     false
-  - name:         案例
-    url:          /another
-    external:     false
 # ------------ CONFIGURABLE END ------------
 
 #permalink:        /:categories/:title.html
