@@ -1,6 +1,6 @@
 ---
 layout: blog
-share: true
+note: true
 category: 随笔
 title:  Redis,Memcache的区别和具体应用场景及选择（改写）
 date:   2017-07-30 10:06:42
@@ -13,7 +13,7 @@ tags:
 - 负载均衡
 - stackoverflow
 redirect_from:
-  - /2017/07/noteindex/
+  - /2017/07/memcacheandredis/
 ---
 #  Memcached简介
 Memcached是以LiveJurnal旗下Danga Interactive公司的Bard Fitzpatric为首开发的高性能分布式内存缓存服务器。其本质上就是一个内存key-value数据库，但是不支持数据的持久化，服务器关闭之后数据全部丢失。Memcached使用C语言开发，在大多数像Linux、BSD和Solaris等POSIX系统上，只要安装了libevent即可使用。在Windows下，它也有一个可用的非官方版本(http://code.jellycan.com/memcached/)。Memcached的客户端软件实现非常多，包括C/C++, PHP, Java, Python, Ruby, Perl, Erlang, Lua等。当前Memcached使用广泛，除了LiveJournal以外还有Wikipedia、Flickr、Twitter、Youtube和WordPress等。
