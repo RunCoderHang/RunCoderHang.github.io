@@ -1,6 +1,6 @@
 ---
 layout: blog
-rote: true
+road: true
 category: 随笔
 title:  Redis,Memcache的区别和具体应用场景及选择（改写）
 date:   2017-07-30 10:06:42
