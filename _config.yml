@@ -31,7 +31,8 @@ links:
     url:          /about
     external:     false
 
-  - url:          /another
+  - name:         Demo
+    url:          /another/editable-select.html
     external:     false
 # ------------ CONFIGURABLE END ------------
 
