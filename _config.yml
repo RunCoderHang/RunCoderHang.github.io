@@ -6,6 +6,7 @@ signoff:          "HangForFreedom" # Your name
 facebook_appid:   
 google_analytics: UA-101222464-1
 share:            true 
+baseurl:          "" #根目录
 # 分页
 paginate: 15
 paginate_path: "liberxuepage:num"
@@ -14,8 +15,8 @@ links:
   - name:         首页
     url:          /
     external:     false
-  - name:         分享
-    url:          /share
+  - name:         博文
+    url:          /article
     external:     false
   - name:         随笔
     url:          /note
