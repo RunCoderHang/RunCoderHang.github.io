@@ -32,7 +32,7 @@ links:
     external:     false
 
   - name:         Demo
-    url:          /another/editable-select.html
+    url:          /another
     external:     false
 # ------------ CONFIGURABLE END ------------
 
