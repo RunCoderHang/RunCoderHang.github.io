@@ -21,6 +21,9 @@ links:
   - name:         随笔
     url:          /note
     external:     false
+  - name:         Demo
+    url:          /another
+    external:     false
   - name:         归档
     url:          /archives
     external:     false
@@ -29,10 +32,6 @@ links:
     external:     false
   - name:         关于
     url:          /about
-    external:     false
-
-  - name:         Demo
-    url:          /another
     external:     false
 # ------------ CONFIGURABLE END ------------
 
