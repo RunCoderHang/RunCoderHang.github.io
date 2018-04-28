@@ -1,6 +1,6 @@
 ---
 layout: blog
-book: true
+demo: true
 background: blue
 background-image: http://ot1cc1u9t.bkt.clouddn.com/17-7-15/48174506.jpg
 title:  "瓦尔登湖liberxue一些所感所想和笔记书签"
@@ -20,7 +20,7 @@ category: 书籍
  
 很多时候，我甚至不乐意别人打扰我的独处时光，而我并不是一个孤僻的人。我喜欢独自看书，独自任思绪飘扬，独自写些杂乱无章的文字，独自享受午后飘窗下的阳光。
  
-- 周国平说:
+- 周国平说:[这里](https://hangforfreedom.github.io/some-cases/mouse-suspension/demo.html)
  
  无聊，寂寞，孤独是三种不同的心境。
   

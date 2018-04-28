@@ -7,6 +7,9 @@ facebook_appid:
 google_analytics: UA-101222464-1
 share:            true 
 baseurl:          "" #根目录
+# ---- Where things are ----
+source:           .
+destination:      ./_site
 # 分页
 paginate: 15
 paginate_path: "liberxuepage:num"
