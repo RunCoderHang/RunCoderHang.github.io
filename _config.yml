@@ -11,7 +11,7 @@ baseurl:          "" #根目录
 source:           .
 destination:      ./_site
 # 分页
-paginate: 15
+paginate: 9
 paginate_path: "liberxuepage:num"
 gems: [jekyll-paginate]
 links:
