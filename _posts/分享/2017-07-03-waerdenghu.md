@@ -20,7 +20,8 @@ category: 书籍
  
 很多时候，我甚至不乐意别人打扰我的独处时光，而我并不是一个孤僻的人。我喜欢独自看书，独自任思绪飘扬，独自写些杂乱无章的文字，独自享受午后飘窗下的阳光。
  
-- 周国平说:[这里](https://hangforfreedom.github.io/some-cases/mouse-suspension/demo.html)
+- 周国平说: [这里](https://hangforfreedom.github.io/some-cases/mouse-suspension/demo.html)
+           <a href="https://hangforfreedom.github.io/some-cases/mouse-suspension/demo.html" target="_blank">这里</a>
  
  无聊，寂寞，孤独是三种不同的心境。
   
