@@ -24,8 +24,8 @@ links:
   - name:         随笔
     url:          /note
     external:     false
-  - name:         Demo
-    url:          /another
+  - name:         案例
+    url:          /demo
     external:     false
   - name:         归档
     url:          /archives
