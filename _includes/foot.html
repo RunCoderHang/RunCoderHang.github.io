@@ -55,12 +55,21 @@
 <script src="/search/js/cb-search.js"></script>
 <!-- header隐藏 -->
 <script> 
-    var header = new Headroom(document.getElementById("header"), { tolerance: 0, offset : 80, classes: { initial: "animated", pinned: "slideDown", unpinned: "slideUp" } });
+    var header = new Headroom(document.getElementById("header"),
+    {
+      "tolerance": 5,
+      "offset": 0,
+      "classes": {
+        "initial": "animated",
+        "pinned": "slidDown",
+        "unpinned": "slideUp"
+      }
+    });
     header.init();
     if ('addEventListener' in document) { document.addEventListener('DOMContentLoaded', function() { FastClick.attach(document.body); }, false); } 
 </script> 
 <!-- code代码可选中 -->
-<script data-no-instant> InstantClick.on('change', function(isInitialLoad){ var blocks = document.querySelectorAll('code'); for (var i = 0; i < blocks.length; i++) { hljs.highlightBlock(blocks[i]); } if (isInitialLoad === false) { } }); InstantClick.init('mousedown'); 
+<script data-no-instant> InstantClick.on('change', function(isInitialLoad){ var blocks = document.querySelectorAll('pre code'); for (var i = 0; i < blocks.length; i++) { hljs.highlightBlock(blocks[i]); } if (isInitialLoad === false) { } }); InstantClick.init('mousedown'); 
 </script> 
 <!-- 百度统计代码 -->
 <!-- <script>var _hmt = _hmt || [];(function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?a2c3575c0eaeca0cb69ba94bcd67cffc"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s);})();</script>  -->
