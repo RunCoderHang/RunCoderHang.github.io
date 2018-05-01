@@ -46,9 +46,13 @@
 		</div>
     </div>
 </footer>
+<script src="//cdn.bootcss.com/headroom/0.9.1/headroom.min.js"></script>
 <script src="//cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.js"></script>
 <script src="/search/js/cb-search.js"></script>
+<script> 
+    var header = new Headroom(document.getElementById("header"), { tolerance: 0, offset : 70, classes: { initial: "animated", pinned: "slideDown", unpinned: "slideUp" } }); header.init(); if ('addEventListener' in document) { document.addEventListener('DOMContentLoaded', function() { FastClick.attach(document.body); }, false); } 
+</script> 
 <script>
 $(function () {
     setTimeout(function () {

@@ -61,8 +61,5 @@
       {% if is_post %}{% include pagination.html %}{% endif %}
     </div>
 {% include foot.html %}
-  <script> 
-    var header = new Headroom(document.getElementById("header"), { tolerance: 0, offset : 70, classes: { initial: "animated", pinned: "slideDown", unpinned: "slideUp" } }); header.init(); if ('addEventListener' in document) { document.addEventListener('DOMContentLoaded', function() { FastClick.attach(document.body); }, false); } 
-  </script> 
   </body>
 </html>
