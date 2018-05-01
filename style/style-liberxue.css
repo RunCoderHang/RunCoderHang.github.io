@@ -443,3 +443,11 @@ pre code::after {font-size: 1rem;color: #BFBFBF;position: absolute;top: 5px;righ
    .post-onelist-item-container .item-readmore{display:none;}
    .post-onelist-item-container .onelist-item-thumb{min-height:180px;}
 }
+@-webkit-keyframes unpinned{0%{-webkit-transform:translateY(0)}100%{-webkit-transform:translateY(50px)}}
+@keyframes unpinned{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(50px);transform:translateY(50px)}}
+@-webkit-keyframes pinned{0%{-webkit-transform:translateY(50px)}100%{-webkit-transform:translateY(0)}}
+@keyframes pinned{0%{-webkit-transform:translateY(50px);transform:translateY(50px)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}
+@-webkit-keyframes slideDown{0%{-webkit-transform:translateY(-80px)}100%{-webkit-transform:translateY(0)}}
+@keyframes slideDown{0%{-webkit-transform:translateY(-80px);transform:translateY(-80px)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}
+@-webkit-keyframes slideUp{0%{-webkit-transform:translateY(0)}100%{-webkit-transform:translateY(-80px)}}
+@keyframes slideUp{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(-80px);transform:translateY(-80px)}}
