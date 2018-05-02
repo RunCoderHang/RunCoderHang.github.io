@@ -16,12 +16,10 @@ date:   2018-05-01 21:41:00
 category: 博文
 ---
 
-<div align="left">
 <img src="https://hangforfreedom.github.io/thumbnails/fastclick.png" alt="fastclick">
-</div>
 
 # 初识``fastclick.js``  
-<hr style="border: 0.5px solid #ccc;">
+---
 
 为了<a href="" target="_blank" style="color: green;">实现导航栏在滚动页面时消失</a>，我浏览一位博主的博客作为案例。在源码中，我发现一个``fastclick.js``插件，于是好奇地查找它的作用。  
 
@@ -33,6 +31,7 @@ category: 博文
 ### ``fastclick``的兼容性  
 
 ``FastClick``能够兼容以下浏览器：
+
  * Mobile Safari on iOS 3 and upwards 
  * Chrome on iOS 5 and upwards 
  * Chrome on Android (ICS) 
@@ -42,7 +41,7 @@ category: 博文
   
 
 # ``fastclick``什么时候不使用  
-<hr style="border: 0.5px solid #ccc;">  
+---
 
 fastclick不附加任何监听器在桌面浏览器上面，所以如果你的项目不是针对的移动浏览器，那么就不要使用这个插件。  
 
@@ -50,7 +49,7 @@ Android 设备上的 google浏览器 （Chrome） 32+ 版本，在meta头信息�
 
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1">
-```  
+```
 
 >Chrome浏览器在安卓设备上的时候，设置meta头信息中 user-scalable=no 但是这样就无法让用户多点触控缩放网页了。  
 
@@ -59,14 +58,14 @@ Android 设备上的 google浏览器 （Chrome） 32+ 版本，在meta头信息�
 
 
 # ``fastclick.js``的使用  
-<hr style="border: 0.5px solid #ccc;">
+---
 
 提供``fastclick.js``的源码地址：<a href="http://www.bootcdn.cn/fastclick/" target="_blank" style="color: green;">http://www.bootcdn.cn/fastclick/</a>  
 首先在HTML页面中添加外联``javascript``文件  
 
 ```
 <script type="text/javascript" src="https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js"></script>
-```  
+```
 
 还有内部``js``文件  
 
@@ -78,7 +77,7 @@ Android 设备上的 google浏览器 （Chrome） 32+ 版本，在meta头信息�
 	    }, false);  
 	}
 </script>
-```  
+```
 
 当然，如果使用``JQuery``，``js``可以写成如下  
 
@@ -88,7 +87,7 @@ Android 设备上的 google浏览器 （Chrome） 32+ 版本，在meta头信息�
 	    FastClick.attach(document.body);  
 	});
 </script>
-```  
+```
 
 如果使用``Browserify``或者其他``CommonJS-style``系统，当你调用``require('fastclick')``时，``FastClick.attach``事件会被返回，加载``FastClick``最简单的方式就是下面的方法了：  
 
@@ -97,7 +96,7 @@ Android 设备上的 google浏览器 （Chrome） 32+ 版本，在meta头信息�
 	var attachFastClick = require('fastclick');  
 	attachFastClick(document.body);
 </script>
-```  
+```
 
 完整案例如下：  
 
