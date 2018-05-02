@@ -3,7 +3,8 @@ layout: blog
 demo: true
 istop: true
 new: true
-title:  七种实现左侧固定，右侧自适应两栏布局的方法
+ico: bg-ico-code
+title:  七种实现右侧固定，左侧自适应两栏布局的方法
 create: 转载
 tags:
 - html
