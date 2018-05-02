@@ -17,7 +17,7 @@ category: 博文
 ---
 
 <div align="center">
-	![fastclick](https://hangforfreedom.github.io/thumbnails/faskclick.png)
+<img src="https://hangforfreedom.github.io/thumbnails/faskclick.png" alt="fastclick">
 </div>
 
 # 初识``fastclick.js``  
@@ -41,7 +41,7 @@ category: 博文
   
 
 # ``fastclick``什么时候不使用  
-<hr style="border: 0.5px solid #ccc;">
+<hr style="border: 0.5px solid #ccc;">  
 
 fastclick不附加任何监听器在桌面浏览器上面，所以如果你的项目不是针对的移动浏览器，那么就不要使用这个插件。  
 
