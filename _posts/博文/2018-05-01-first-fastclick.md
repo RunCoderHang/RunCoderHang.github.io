@@ -57,7 +57,7 @@ Android 设备上的 google浏览器 （Chrome） 32+ 版本，在meta头信息�
 ---
 ## ``fastclick.js``的使用  
 
-提供``fastclick.js``的源码地址：<a href="http://www.bootcdn.cn/fastclick/" target="_blank" style="color: green;">http://www.bootcdn.cn/fastclick/</a>  
+提供``fastclick.js``的源码地址：<a href="http://www.bootcdn.cn/fastclick/" target="_blank">http://www.bootcdn.cn/fastclick/</a>  
 首先在HTML页面中添加外联``javascript``文件  
 
 ```

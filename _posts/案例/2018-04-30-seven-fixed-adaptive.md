@@ -161,7 +161,7 @@ category: 案例
  * 需要计算左侧盒子的``margin-right``  
 
 
-## 使用``absolute+margin-right``方案  
+## ``absolute+margin-right``方案  
 <hr style="border: 0.5px solid #ccc;">
 
 另外一种让两个``block``排列到一起的方法是对右盒子使用``position: absolute;``的绝对定位。这样，左侧盒子也能无视掉它。  
@@ -187,7 +187,7 @@ category: 案例
  * 更改书写顺序，右``div``在上左``div``在下
 
 
-## 使用``float+BFC``方案  
+## ``float+BFC``方案  
 <hr style="border: 0.5px solid #ccc;">
 
 上面的方法都需要通过右侧盒子的宽度，计算某个值，下面三种方法都是不需要计算的。只需要设置两个盒子之间的间隔。  
