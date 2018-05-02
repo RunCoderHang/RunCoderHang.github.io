@@ -267,6 +267,6 @@ category: 案例
 
 <strong>链接：</strong>
 
- * 本文参考文章：<a href="https://segmentfault.com/a/1190000010698609" target="_blank">右边固定，左边自适应</a>
- * 参考文章的<a href="https://zhuqingguang.github.io/" target="_blank">作者</a>
+ * 本文参考文章：<a href="https://segmentfault.com/a/1190000010698609" target="_blank" style="color: green;">右边固定，左边自适应</a>
+ * 参考文章的<a href="https://zhuqingguang.github.io/" target="_blank" style="color: green;">作者</a>
 
