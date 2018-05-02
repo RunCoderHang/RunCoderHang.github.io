@@ -17,7 +17,7 @@ category: 博文
 ---
 
 <div align="center">
-<img src="https://hangforfreedom.github.io/thumbnails/faskclick.png" alt="fastclick">
+<img src="https://hangforfreedom.github.io/thumbnails/fastclick.png" alt="fastclick">
 </div>
 
 # 初识``fastclick.js``  
@@ -27,11 +27,12 @@ category: 博文
 
 >在移动页面开发上，会出现一个问题，click事件会有300ms的延迟，这让用户感觉像是网页卡顿了一样。实际上，这是浏览器为了更好的判断用户的双击行为，移动端浏览器都支持双击缩放或双击滚动的操作，比如一个链接，当用户第一次点击后，浏览器不能立刻判断用户确实要打开这个链接，还是想要进行双击的操作，因此几乎现在所有浏览器都效仿Safari当年的约定，在点击事件上加了300毫秒的延迟。  
 
-因为这300ms的延迟，催生了``fastclick``的诞生。
+因为这300ms的延迟，催生了``fastclick``的诞生。  
+
 
 ### ``fastclick``的兼容性  
 
-``FastClick``能够兼容一下浏览器：
+``FastClick``能够兼容以下浏览器：
  * Mobile Safari on iOS 3 and upwards 
  * Chrome on iOS 5 and upwards 
  * Chrome on Android (ICS) 
