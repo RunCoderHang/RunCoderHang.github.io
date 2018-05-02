@@ -19,9 +19,9 @@ category: 博文
 <img src="https://hangforfreedom.github.io/thumbnails/fastclick.png" alt="fastclick">
 
 ---
-# 初识``fastclick.js``  
+## 初识``fastclick.js``  
 
-为了<a href="" target="_blank" style="color: green;">实现导航栏在滚动页面时消失</a>，我浏览一位博主的博客作为案例。在源码中，我发现一个``fastclick.js``插件，于是好奇地查找它的作用。  
+为了<a href="" target="_blank">实现导航栏在滚动页面时消失</a>，我浏览一位博主的博客作为案例。在源码中，我发现一个``fastclick.js``插件，于是好奇地查找它的作用。  
 
 >在移动页面开发上，会出现一个问题，click事件会有300ms的延迟，这让用户感觉像是网页卡顿了一样。实际上，这是浏览器为了更好的判断用户的双击行为，移动端浏览器都支持双击缩放或双击滚动的操作，比如一个链接，当用户第一次点击后，浏览器不能立刻判断用户确实要打开这个链接，还是想要进行双击的操作，因此几乎现在所有浏览器都效仿Safari当年的约定，在点击事件上加了300毫秒的延迟。  
 
@@ -40,7 +40,7 @@ category: 博文
  * PlayBook OS 1 and upwards  
 
 ---
-# ``fastclick``什么时候不使用  
+## ``fastclick``什么时候不使用  
 
 fastclick不附加任何监听器在桌面浏览器上面，所以如果你的项目不是针对的移动浏览器，那么就不要使用这个插件。  
 
@@ -55,7 +55,7 @@ Android 设备上的 google浏览器 （Chrome） 32+ 版本，在meta头信息�
 >对于IE11 + 你可以设置``touch-action: manipulation;``来禁用通过双击放大某些元素例如：链接和按钮的，对于IE10使用``-ms-touch-action: manipulation``。  
 
 ---
-# ``fastclick.js``的使用  
+## ``fastclick.js``的使用  
 
 提供``fastclick.js``的源码地址：<a href="http://www.bootcdn.cn/fastclick/" target="_blank" style="color: green;">http://www.bootcdn.cn/fastclick/</a>  
 首先在HTML页面中添加外联``javascript``文件  

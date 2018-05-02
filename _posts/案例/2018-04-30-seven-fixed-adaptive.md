@@ -21,7 +21,7 @@ category: 案例
 {:toc}
 
  -->
-参考<a href="https://segmentfault.com/a/1190000010698609" target="_blank" style="color: blue">文章</a>实现了``右边固定，左边自适应``的两栏布局的七种方法。最终的效果，可以查看<a href="https://hangforfreedom.github.io/some-cases/demo-4/demo.html" target="_blank" style="color: blue">这里</a>。  
+参考<a href="https://segmentfault.com/a/1190000010698609" target="_blank">文章</a>实现了``右边固定，左边自适应``的两栏布局的七种方法。最终的效果，可以查看<a href="https://hangforfreedom.github.io/some-cases/demo-4/demo.html" target="_blank">这里</a>。  
 
 与原案例不同的是右边``div``和左边``div``在html源码中的书写的先后顺序也是不同的。  
 
@@ -44,7 +44,7 @@ category: 案例
         基本样式：两个div相距20px，右侧div宽200px<br><br><br><br><br>
     </div>
 </div>
-```  
+```
 
 基本的样式是：两个盒子相距``20px``，右盒子宽``200px``，左盒子自适应。基本的CSS样式如下：  
 
@@ -64,12 +64,12 @@ category: 案例
     width: 200px;
     border: 5px solid #ddd;
 }
-```  
+```
 
 下面的代码就是基于这套基本代码做覆盖，通过容器添加不同的类来实现效果。  
 
 
-# 双``inline-block``方案
+## 双``inline-block``方案
 <hr style="border: 0.5px solid #ccc;">
 
 ```
@@ -89,7 +89,7 @@ category: 案例
 .wrapper-inline-block .left{
     width: calc(100% - 225px);
 }
-```  
+```
 
 这种方法是通过``width: calc(100% - 225px)``来动态计算左盒子的宽度。``225px``指的是左盒子距离右盒子的距离，以及右盒子具体的宽度``(content+padding+border)``，以及计算父容器宽度的``100%``需要减去的数值。同时，还需要知道左侧盒子的宽度是否包含``border``的宽度。  
 在这里，为了简单的计算左侧盒子准确的宽度，设置子元素的``box-sizing: border-box;``以及父元素的``box-sizing: content-box;``。  
@@ -101,7 +101,7 @@ category: 案例
  * 需要设置``vertical-align: top;``满足顶端对齐。  
 
 
-# 双``float``方案  
+## 双``float``方案  
 <hr style="border: 0.5px solid #ccc;">
 
 ```
@@ -119,7 +119,7 @@ category: 案例
 .wrapper-double-float .left{
     width: calc(100% - 225px);
 }
-```  
+```
 
 本方案和双``inline-block``方案原理相同，都是通过动态计算宽度来实现自适应。但是，由于浮动的``block``元素在有空间的情况下会依次紧贴，排列在一行，所以无需设置``display: inline-block;``，自然也就减少了顶端对齐，空格字符占空间等问题。  
 
@@ -131,7 +131,7 @@ category: 案例
  * 父元素需要清楚浮动  
 
 
-# ``float+margin-right``方案  
+## ``float+margin-right``方案  
 <hr style="border: 0.5px solid #ccc;">
 
 ```
@@ -146,7 +146,7 @@ category: 案例
 .wrapper-float .top-right{
     float: right;
 }
-```  
+```
 
 上面两种方案都是利用了CSS的``calc()``函数来计算宽度值。下面两种方案则是利用了``block``级别的元素盒子的宽度具有<strong>填满父容器，并随着父容器的宽度自适应的流动特性</strong>。  
 但是``block``级别的元素都是独占一行的，所以要想办法让两个``block``排列到一起。  
@@ -161,7 +161,7 @@ category: 案例
  * 需要计算左侧盒子的``margin-right``  
 
 
-# 使用``absolute+margin-right``方案  
+## 使用``absolute+margin-right``方案  
 <hr style="border: 0.5px solid #ccc;">
 
 另外一种让两个``block``排列到一起的方法是对右盒子使用``position: absolute;``的绝对定位。这样，左侧盒子也能无视掉它。  
@@ -179,7 +179,7 @@ category: 案例
 .wrapper-absolute .left{
     margin-right: 225px;
 }
-```  
+```
 
 当然，右侧盒子使用绝对定位后，不仅要调整它的位置``right: 20;``，还要对其父元素使用相对定位``position: relative``。这样保证了和左侧盒子距离的准确性。  
 <strong>缺点：</strong>
@@ -187,7 +187,7 @@ category: 案例
  * 更改书写顺序，右``div``在上左``div``在下
 
 
-# 使用``float+BFC``方案  
+## 使用``float+BFC``方案  
 <hr style="border: 0.5px solid #ccc;">
 
 上面的方法都需要通过右侧盒子的宽度，计算某个值，下面三种方法都是不需要计算的。只需要设置两个盒子之间的间隔。  
@@ -206,7 +206,7 @@ category: 案例
     margin-right: 0;
     overflow: auto;
 }
-```  
+```
 
 这个方案同样是利用了左侧浮动，但是左侧盒子通过``overflow: auto;``形成了BFC，因此左侧盒子不会与浮动的元素重叠。  
 这种情况下，只需要为右侧的浮动盒子设置 ``margin-left``，就可实现两个盒子的距离了。而左侧盒子是``block``级别的，所以宽度能实现自适应。  
@@ -214,7 +214,7 @@ category: 案例
  * 父元素需要清除浮动
 
 
-# ``flex``方案  
+## ``flex``方案  
 <hr style="border: 0.5px solid #ccc;">
 
 ```
@@ -230,14 +230,14 @@ category: 案例
 .wrapper-flex .left{
     flex: 1 1 auto;
 }
-```  
+```
 
 ``flex``可以说是最好的方案了，代码少，使用简单。  
 <strong>需要注意</strong>的是，``flex``容器的一个默认属性值：``align-items: stretch;``。这个属性导致了列等高的效果。  
 为了让两个盒子高度自动，需要设置：``align-items: flex-start;``。  
 
 
-# ``grid``方案  
+## ``grid``方案  
 <hr style="border: 0.5px solid #ccc;">
 
 ```
@@ -258,13 +258,15 @@ category: 案例
 .wrapper-grid .left{
     grid-column: 1;
 }
-```  
+```
 
-<strong>注意：</strong>  
+<strong>注意：</strong>
+
  * ``grid``布局也有列等高的默认效果。需要设置：``align-items: start``
  * ``grid``布局还有一个值得注意的小地方和``flex``不同：在使用``margin-right``的时候，``grid``布局默认是``box-sizing``设置的盒宽度之间的位置。而``flex``则是使用两个div的``border``或者``padding``外侧之间的距离  
 
 <strong>链接：</strong>
- * 本文参考文章：<a href="https://segmentfault.com/a/1190000010698609" target="_blank" style="color: blue">右边固定，左边自适应</a>
- * 参考文章的<a href="https://zhuqingguang.github.io/" target="_blank" style="color: blue">作者</a>
+
+ * 本文参考文章：<a href="https://segmentfault.com/a/1190000010698609" target="_blank">右边固定，左边自适应</a>
+ * 参考文章的<a href="https://zhuqingguang.github.io/" target="_blank">作者</a>
 
