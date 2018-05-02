@@ -16,6 +16,10 @@ date:   2018-05-01 21:41:00
 category: 博文
 ---
 
+<div align="center">
+	![fastclick](https://hangforfreedom.github.io/thumbnails/faskclick.png)
+</div>
+
 # 初识``fastclick.js``  
 <hr style="border: 0.5px solid #ccc;">
 
@@ -25,7 +29,7 @@ category: 博文
 
 因为这300ms的延迟，催生了``fastclick``的诞生。
 
-## ``fastclick``的兼容性  
+### ``fastclick``的兼容性  
 
 ``FastClick``能够兼容一下浏览器：
  * Mobile Safari on iOS 3 and upwards 
@@ -34,7 +38,7 @@ category: 博文
  * Opera Mobile 11.5 and upwards 
  * Android Browser since Android 2 
  * PlayBook OS 1 and upwards  
-
+  
 
 # ``fastclick``什么时候不使用  
 <hr style="border: 0.5px solid #ccc;">
@@ -50,7 +54,7 @@ Android 设备上的 google浏览器 （Chrome） 32+ 版本，在meta头信息�
 >Chrome浏览器在安卓设备上的时候，设置meta头信息中 user-scalable=no 但是这样就无法让用户多点触控缩放网页了。  
 
 >对于IE11 + 你可以设置``touch-action: manipulation;``来禁用通过双击放大某些元素例如：链接和按钮的，对于IE10使用``-ms-touch-action: manipulation``。  
-
+  
 
 # ``fastclick.js``的使用  
 <hr style="border: 0.5px solid #ccc;">
