@@ -54,7 +54,7 @@ category: 案例
 }
 ```
 
-其中``position: fixed``和``top: 0``可以让``header``相对``body``固定在顶部，而``z-index: 10``，则是让``header``处于页面的最前面，滑动页面时，``header``则一直覆盖在其它元素上面。
+其中``position: fixed``和``top: 0``可以让``header``相对``body``固定在顶部，而``z-index: 10``，则是让``header``处于页面的最前面，滑动页面时，``header``则一直覆盖在其它元素上面。  
 
 
 ### 给定``header``实现动画的``css``
@@ -80,15 +80,16 @@ category: 案例
 
 ``animated``、``slideDown``、``slideUp`` 分别是``header``的类名，只不过在html中不需要给``header``添加这些类名，因为``js``会添加类名，显示动画效果。
 
-``slideDown``指鼠标上滚时，目标元素向下滑动，意为出现
-``slideUp``指鼠标下滚时，目标元素向上滑动，意为消失
+``slideDown``指鼠标上滚时，目标元素向下滑动，意为出现  
+
+``slideUp``指鼠标下滚时，目标元素向上滑动，意为消失  
 
 |         名称        |            作用            |
 |---------------------|----------------------------|
 | -webkit-            | 适用于Chrome 和 Safari     |
 | animation-duration  | 动画执行一次持续的时长     |
 | animation-fill-mode | 规定对象动画时间之外的状态 |
-| animation-name      | 规定 @keyframes 动画的名称 |
+| animation-name      | 规定 @keyframes 动画的名称 |  
 
 
 ### ``@keyframes``添加动画
@@ -140,7 +141,7 @@ category: 案例
 | @keyframes         | 规定动画(Internet Explorer 10、Firefox 以及 Opera 支持)                              |
 | @-webkit-keyframes | Chrome 和 Safari 支持                                                                |
 | transform          | 可以对网页元素进行变换的属性，比如旋转，缩放，移动                                   |
-| translate          | translate是transform中的属性，translate指的是元素的移动，括号中的值分别指y轴的平移量 |
+| translate          | translate是transform中的属性，translate指的是元素的移动，括号中的值分别指y轴的平移量 |  
 
 
 ### ``js``的类名转换作用
