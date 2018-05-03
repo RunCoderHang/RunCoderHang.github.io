@@ -12,7 +12,7 @@ redirect_from:
   - /about/
 ---
 
-# 你好
+## 你好
 
 欢迎来到我的Blog。
 
