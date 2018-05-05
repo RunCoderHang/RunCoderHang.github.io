@@ -191,6 +191,13 @@ category: 案例
 
 
 <canvas id="canvas" style="display: block;"></canvas>
+<style>
+    @media screen and (max-width: 700px){
+        #canvas{
+            height: 40px;
+        }
+    }
+</style>
 <script>
 (function(){ 
 
