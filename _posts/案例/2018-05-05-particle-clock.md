@@ -2,6 +2,7 @@
 layout: blog
 demo: true
 new: true
+istop: true
 ico: bg-ico-web
 title:  初步实现粒子时钟
 create: 原创
