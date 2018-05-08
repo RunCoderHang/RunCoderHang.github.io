@@ -61,9 +61,9 @@ If the trade unionist Jimmy Hoffa were alive today, he would probably represent 
 <b>perform</b>：v.执行；履行；表演　vt.工作；做；进行；完成　vi.进行；表现；  
 <b>perform(do) experiment on sth/sb</b>：对···做实验  
 
-#### delivery：n.分娩；投递；讲话方式
+#### **delivery**：n.分娩；投递；讲话方式
 
-#### outline：v.比···活得长；比···经久  
+#### **outline**：v.比···活得长；比···经久  
 
 **outweigh**：v.超重；超过，强过  
 **outlook**：n.前景；观点；见解；景色　v.瞪眼看；瞧；比···漂亮  
@@ -82,11 +82,11 @@ Steelworkers, airline employees, and now in the auto industry are joining millio
 
 >和数百万的家庭一样，炼钢工人、航空公司员工以及如今的汽车工业从业者们都不得不开始担心利率、股市跌涨以及一个残酷的现实：<font color="red">他们也许会提前花完自己的退休养老金</font>。
 
-#### liveliness：n.活力
+#### **liveliness**：n.活力
 
 **lively**：adj.充满活力的；活泼的；充满趣味的　adv.轻快地；富有活力地
 
-#### livelihood：n.生计；生活
+#### **livelihood**：n.生计；生活
 
 **childhood**：童年  
 **parenthood**：亲子关系  
