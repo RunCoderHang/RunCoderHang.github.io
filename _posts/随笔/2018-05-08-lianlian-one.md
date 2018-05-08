@@ -3,14 +3,14 @@ layout: blog
 note: true
 new: false
 ico: bg-ico-note
-title:  恋恋有词study
+title:  I love English
 create: 原创
 tags:
 - English
 - 考研
 background: green
 background-image: https://hangforfreedom.github.io/thumbnails/lianlian.jpg
-date:   2018-05-08 21:23:00
+date:   2018-05-08 15:36:00
 category: 随笔
 ---
 
