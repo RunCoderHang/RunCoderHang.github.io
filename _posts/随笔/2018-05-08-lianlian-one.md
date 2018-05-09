@@ -3,7 +3,7 @@ layout: blog
 note: true
 new: false
 ico: bg-ico-note
-title:  I love English
+title:  I love English(1)
 create: 原创
 tags:
 - English
@@ -44,6 +44,7 @@ These recordings are cheap, available everywhere, and very often much higher in 
 #### <b>alive</b>：adj. 活着的；有生气的，活跃的  
 
 句子：  
+
 <b>trade</b>：n.贸易；行业；<美>顾客；买卖　v.交易；贸易  
 <b>unionist</b>：n.工会会员；工会主义者；联合主义者  
 <b>probably</b>：adv.大概，或许；很可能  
