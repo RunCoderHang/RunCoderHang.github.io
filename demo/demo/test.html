@@ -4,79 +4,123 @@
 	<meta charset="utf-8">
 	<title>test</title>
 	<link rel="stylesheet" href="">
+	<!---------------------- CSS ----------------------->
+	<style type="text/css">
+		.rotate-main{
+			position: relative;
+			width: 400px;
+			height: 180px;
+			border: 1px solid #0f8faa;
+			border-radius: 5px;
+		}
+		.rotate-content{
+			position: absolute;
+			top: 52.5px;
+			right: 175px;
+			width: 70px;
+			height: 75px;
+			transition: 0.5s;
+		}
+		.rotate-tab{
+			width: 100px;
+			height: 180px;
+			padding-top: 1px;
+			box-sizing: border-box;
+		}
+		.rotate-tab1,.rotate-tab2,.rotate-tab3{
+			width: 60px;
+			height: 30px;
+			margin: 22px auto;
+			border-radius: 60px;
+			font-size: 12px;
+			color: #fff;
+			line-height: 30px;
+			text-align: center;
+			cursor: pointer;
+		}
+		.rotate-content1,.rotate-content2,.rotate-content3{
+			width: 70px;
+			height: 3px;
+		}
+		.rotate-content1{
+			background-color: #06d6a0;
+		}
+		.rotate-content2{
+			transform: translateX(33.5px) translateY(33px) rotate(90deg);
+			background-color: #1b9aaa;
+		}
+		.rotate-content3{
+			transform: translateY(66px);
+			background-color: #ef476f;
+		}
+		.rotate-tab1{
+			background-color: #00c0a1;
+		}
+		.rotate-tab2{
+			background-color: #0f8faa;
+		}
+		.rotate-tab3{
+			background-color: #fd596f;
+		}
+		.rotate-user{
+			position: absolute;
+			right: 6px;
+			top: 67.5px;
+			width: 75px;
+			height: 30px;
+			font-size: 14px;
+			line-height: 30px;
+			text-align: center;
+			border: 1px solid #0f8faa;
+		}
+		.rotate-user::after{
+			content: '';
+			position: absolute;
+			top: -9px;
+			left: -48px;
+			width: 0;
+			height: 0;
+			border-width: 24px;
+			border-style: solid;
+			border-color: transparent #0f8faa transparent transparent;
+		}
+	</style>
 </head>
 <style>
-	.main{
-		display: flex;
-	    width: 507px;
-	    height: 300px;
-	    margin: 150px auto;
-	}
-	/*左边选择区域*/
-	.tab{
-	    width: 200px;
-	    height: 300px;
-	     /*给定一个左右边距*/
-	    margin-right: 7px;
-	}
-	.tab1,.tab2,.tab3{
-	    width: 200px;
-	    height: 100px;
-	    color: #fff;
-	    font-size: 14px;
-	    font-weight: bold;
-	    text-align: center;
-	    line-height: 100px; 
-	    /*鼠标显示成小手*/
-	    cursor: pointer;
-	}
-	/*右边内容区域*/
-	.content{
-		position: relative;
-	    width: 300px;
-	    height: 300px;
-	}
-	.content1,.content2,.content3{
-		position: absolute;
-	    width: 300px;
-	    height: 300px;
-	    color: #fff;
-	    font-size: 14px;
-	    font-weight: bold;
-	    text-align: center;
-	    line-height: 300px; 
-	}
-	.tab1{
-		background-color: #06d6a0;
-	}
-	.tab2{
-		background-color: #1b9aaa;
-	}
-	.tab3{
-		background-color: #ef476f;
-	}
-.content1{
-		background-color: #00c0a1;
-	}
-	.content2{
-		background-color: #0f8faa;
-	}
-	.content3{
-		background-color: #fd596f;
-	}
+	
 </style>
 <body>
-	<div class="main">
-	    <div class="tab">
-	        <div id="tab1" class="tab1">TOP</div>
-	        <div id="tab2" class="tab2">FRONT</div>
-	        <div id="tab3" class="tab3">BOTTOM</div>
+	<!---------------------- 详解 ----------------------->
+	<div class="rotate-main">
+	    <div class="rotate-tab">
+	        <div id="tab1" class="rotate-tab1">点击</div>
+	        <div id="tab2" class="rotate-tab2">点击</div>
+	        <div id="tab3" class="rotate-tab3">点击</div>
 	    </div>
-	    <div id="content" class="content">
-	        <div class="content1">TOP CONTENT</div>
-	        <div class="content2">FRONT CONTENT</div>
-	        <div class="content3">BOTTOM CONTENT</div>
+	    <div class="rotate-content">
+	    	<div class="rotate-content1"></div>
+			<div class="rotate-content2"></div>
+			<div class="rotate-content3"></div>
+	    </div>
+	    <div class="rotate-user">
+	    	用户视角
 	    </div>
 	</div>
+	<!---------------------- Js ----------------------->
+	<script>
+		var tab1 = document.getElementsByClassName("rotate-tab1")[0];
+		var tab2 = document.getElementsByClassName("rotate-tab2")[0];
+		var tab3 = document.getElementsByClassName("rotate-tab3")[0];
+		var content = document.getElementsByClassName("rotate-content")[0];
+		tab1.addEventListener('click', function(){
+			content.style.cssText="transform: rotateZ(90deg);";
+		});
+		tab2.addEventListener('click', function(){
+			content.style.cssText="transform: rotateZ(0deg);";
+		});
+		tab3.addEventListener('click', function(){
+			content.style.cssText="transform: rotateZ(-90deg);";
+		});
+	</script>
 </body>
 </html>
