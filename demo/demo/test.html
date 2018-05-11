@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>test</title>
+	<link rel="stylesheet" href="">
+</head>
+<style>
+	.main{
+		display: flex;
+	    width: 507px;
+	    height: 300px;
+	    margin: 150px auto;
+	}
+	/*左边选择区域*/
+	.tab{
+	    width: 200px;
+	    height: 300px;
+	     /*给定一个左右边距*/
+	    margin-right: 7px;
+	}
+	.tab1,.tab2,.tab3{
+	    width: 200px;
+	    height: 100px;
+	    color: #fff;
+	    font-size: 14px;
+	    font-weight: bold;
+	    text-align: center;
+	    line-height: 100px; 
+	    /*鼠标显示成小手*/
+	    cursor: pointer;
+	}
+	/*右边内容区域*/
+	.content{
+		position: relative;
+	    width: 300px;
+	    height: 300px;
+	}
+	.content1,.content2,.content3{
+		position: absolute;
+	    width: 300px;
+	    height: 300px;
+	    color: #fff;
+	    font-size: 14px;
+	    font-weight: bold;
+	    text-align: center;
+	    line-height: 300px; 
+	}
+	.tab1{
+		background-color: #06d6a0;
+	}
+	.tab2{
+		background-color: #1b9aaa;
+	}
+	.tab3{
+		background-color: #ef476f;
+	}
+.content1{
+		background-color: #00c0a1;
+	}
+	.content2{
+		background-color: #0f8faa;
+	}
+	.content3{
+		background-color: #fd596f;
+	}
+</style>
+<body>
+	<div class="main">
+	    <div class="tab">
+	        <div id="tab1" class="tab1">TOP</div>
+	        <div id="tab2" class="tab2">FRONT</div>
+	        <div id="tab3" class="tab3">BOTTOM</div>
+	    </div>
+	    <div id="content" class="content">
+	        <div class="content1">TOP CONTENT</div>
+	        <div class="content2">FRONT CONTENT</div>
+	        <div class="content3">BOTTOM CONTENT</div>
+	    </div>
+	</div>
+</body>
+</html>
