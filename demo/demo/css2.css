@@ -1,0 +1,37 @@
+.main{
+	display: flex;
+	width: 600px;
+	height: 300px;
+	margin: 100px auto;
+}
+.style1{
+	width: 130px;
+	height: 130px;
+	background-color: #337ab7;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 45px;
+	margin: 85px auto;
+}
+.style2{
+	width: 130px;
+	height: 130px;
+	background-color: #337ab7;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 45px;
+	margin: 85px auto;
+}
+.tool{
+	width: 242px;
+	height: 300px;
+	padding: 10px 0;
+}
+.btn{
+	width: 242px;
+	margin: 17px auto;
+}

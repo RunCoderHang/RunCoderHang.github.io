@@ -1,0 +1,67 @@
+/******************案例内容*******************/
+.main{
+	display: flex;
+	width: 507px;
+	height: 300px;
+	margin: 150px auto;
+	perspective: 1000px;
+}
+/*左边选择区域*/
+.tab{
+	width: 200px;
+	height: 300px;
+	background-color: lightblue;
+	margin-right: 7px;
+}
+/*右边内容区域*/
+.content{
+	position: relative;
+	top: 20px;
+	left: 7px;
+	width: 260px;
+	height: 260px;
+	transform-style: preserve-3d;
+	transition: 0.5s;
+	/*transform: rotateX(30deg);*/
+}
+.tab1,.tab2,.tab3{
+	width: 200px;
+	height: 100px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 100px; 
+	cursor: pointer;
+}
+.tab1{
+	background-color: #06d6a0;
+}
+.tab2{
+	background-color: #1b9aaa;
+}
+.tab3{
+	background-color: #ef476f;
+}
+.content1,.content2,.content3{
+	position: absolute;
+	width: 260px;
+	height: 260px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 260px; 
+}
+.content1{
+	background-color: #00c0a1;
+	transform: translateY(-130px) rotateX(90deg);
+}
+.content2{
+	background-color: #0f8faa;
+	transform: translateZ(130px);
+}
+.content3{
+	background-color: #fd596f;
+	transform: translateY(130px) rotateX(-90deg);
+}

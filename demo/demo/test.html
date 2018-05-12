@@ -2,87 +2,43 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 	<title>test</title>
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css1.css" id="css">
+	<!-- <link rel="stylesheet" href="css2.css" id="css"> -->
 	<!---------------------- CSS ----------------------->
 	<style type="text/css">
-		.rotate-main{
-			position: relative;
-			width: 400px;
-			height: 180px;
-			border: 1px solid #0f8faa;
-			border-radius: 5px;
-		}
-		.rotate-content{
-			position: absolute;
-			top: 52.5px;
-			right: 175px;
-			width: 70px;
-			height: 75px;
-			transition: 0.5s;
-		}
-		.rotate-tab{
-			width: 100px;
-			height: 180px;
-			padding-top: 1px;
-			box-sizing: border-box;
-		}
-		.rotate-tab1,.rotate-tab2,.rotate-tab3{
-			width: 60px;
-			height: 30px;
-			margin: 22px auto;
-			border-radius: 60px;
-			font-size: 12px;
-			color: #fff;
-			line-height: 30px;
-			text-align: center;
-			cursor: pointer;
-		}
-		.rotate-content1,.rotate-content2,.rotate-content3{
-			width: 70px;
-			height: 3px;
-		}
-		.rotate-content1{
-			background-color: #06d6a0;
-		}
-		.rotate-content2{
-			transform: translateX(33.5px) translateY(33px) rotate(90deg);
-			background-color: #1b9aaa;
-		}
-		.rotate-content3{
-			transform: translateY(66px);
-			background-color: #ef476f;
-		}
-		.rotate-tab1{
-			background-color: #00c0a1;
-		}
-		.rotate-tab2{
-			background-color: #0f8faa;
-		}
-		.rotate-tab3{
-			background-color: #fd596f;
-		}
-		.rotate-user{
-			position: absolute;
-			right: 6px;
-			top: 67.5px;
-			width: 75px;
-			height: 30px;
-			font-size: 14px;
-			line-height: 30px;
-			text-align: center;
-			border: 1px solid #0f8faa;
-		}
-		.rotate-user::after{
-			content: '';
-			position: absolute;
-			top: -9px;
-			left: -48px;
-			width: 0;
-			height: 0;
-			border-width: 24px;
-			border-style: solid;
-			border-color: transparent #0f8faa transparent transparent;
+		@media screen and (max-width: 700px){
+			.main{
+				width: 350px;
+				height: 300px;
+			}
+			.style1{
+				width: 110px;
+				height: 110px;
+				margin: 85px auto;
+				line-height: 39px;
+				margin: 78px auto;
+			}
+			.style2{
+				width: 70px;
+				height: 70px;
+				font-size: 14px;
+				line-height: 24px;
+				margin: 95px auto;
+				border-radius: 50%;
+			}
+			.tool{
+				width: 178px;
+				height: 300px;
+				padding: 10px 0;
+			}
+			.btn{
+				width: 178px;
+				margin: 17px auto;
+				font-size: 10px;
+			}
 		}
 	</style>
 </head>
@@ -90,37 +46,72 @@
 	
 </style>
 <body>
+	<!-------------- bootstrap响应式header ---------------->
+	<style type="text/css">
+		.container a{
+			color: #fff;
+		}
+		.container a:hover{
+			background-color: #fff;
+			color: #337ab7;
+		}
+	</style>
+	<header id="header" class="header" style="background-color: #337ab7;">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+					<!-- <span class="sr-only">Toggle navigation</span> -->
+					<span class="icon-bar" style="background-color:#fff;"></span>
+					<span class="icon-bar" style="background-color:#fff;"></span>
+					<span class="icon-bar" style="background-color:#fff;"></span>
+				</button>
+				<a href="https://hangforfreedom.github.io/" title="" class="navbar-brand" ><b>Hang</b></a>
+			</div>
+			<nav id="bs-navbar" class="collapse navbar-collapse" aria-expanded="false" style="height: 1px;">
+				<ul class="nav navbar-nav">
+					<li><a href="https://hangforfreedom.github.io/" >博客</a></li>
+					<li><a href="https://hangforfreedom.github.io/2018/05/12/js-change-css.html" >文章</a></li>
+					<li><a href="https://github.com/HangForFreedom/some-cases/tree/master/demo-8" >Github</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
 	<!---------------------- 详解 ----------------------->
-	<div class="rotate-main">
-	    <div class="rotate-tab">
-	        <div id="tab1" class="rotate-tab1">点击</div>
-	        <div id="tab2" class="rotate-tab2">点击</div>
-	        <div id="tab3" class="rotate-tab3">点击</div>
-	    </div>
-	    <div class="rotate-content">
-	    	<div class="rotate-content1"></div>
-			<div class="rotate-content2"></div>
-			<div class="rotate-content3"></div>
-	    </div>
-	    <div class="rotate-user">
-	    	用户视角
-	    </div>
+	<div class="main">
+		<div id="tool" class="tool">
+			<input  class="btn btn-info" type="button" value="【div.style.CSS】更改样式" onclick="changeBackgroundColor()">
+			<input class="btn btn-info" type="button" value="【div.style.cssText】更改样式" onclick="changeFontSize()" >
+			<input class="btn btn-info" type="button" value="【div.className】更改样式" onclick="addRadius()" >
+			<input class="btn btn-info" type="button" value="更改外联css样式" onclick="recover()" >
+		</div>
+		<div id="div" class="style1">
+			我不是按钮<br>它才是<br><<
+		</div>
 	</div>
+
 	<!---------------------- Js ----------------------->
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+
 	<script>
-		var tab1 = document.getElementsByClassName("rotate-tab1")[0];
-		var tab2 = document.getElementsByClassName("rotate-tab2")[0];
-		var tab3 = document.getElementsByClassName("rotate-tab3")[0];
-		var content = document.getElementsByClassName("rotate-content")[0];
-		tab1.addEventListener('click', function(){
-			content.style.cssText="transform: rotateZ(90deg);";
-		});
-		tab2.addEventListener('click', function(){
-			content.style.cssText="transform: rotateZ(0deg);";
-		});
-		tab3.addEventListener('click', function(){
-			content.style.cssText="transform: rotateZ(-90deg);";
-		});
+		function changeBackgroundColor(){
+			var div = document.getElementById("div");
+			div.style.backgroundColor="#06d6a0";
+		}
+		function changeFontSize(){
+			var div = document.getElementById("div");
+			div.style.cssText = "font-size: 7px;"
+		}
+		function addRadius(){
+			var div = document.getElementById("div");
+			//div.className = "style2";
+		    div.setAttribute("class", "style2");
+		}
+		function recover(){
+			var div = document.getElementById("css");
+   			div.setAttribute("href","css2.css");
+		}
 	</script>
 </body>
 </html>
