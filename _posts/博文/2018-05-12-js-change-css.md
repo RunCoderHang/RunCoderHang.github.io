@@ -23,7 +23,7 @@ category: 博文
  - 使用div.className来修改样式表的类名
  - 使用更改外联的css文件，从而改变元素的css
 
-日常贴案例，点击<a href="https://hangforfreedom.github.io/some-cases/demo-8/demo.html">查看</a>  
+日常贴案例，点击<a href="https://hangforfreedom.github.io/some-cases/demo-8/demo.html" target="_blank">查看</a>  
 
 ## 详述
 
@@ -149,7 +149,7 @@ function recover(){
 | border-right-style                            | borderRightStyle              |
 | border-right-width                            | borderRightWidth              |
 | border-style                                  | borderStyle                   |
-| border-top  borderTop                         |                               |
+| border-top                                    | borderTop                     |
 | border-top-color                              | borderTopColor                |
 | border-top-style                              | borderTopStyle                |
 | border-top-width                              | borderTopWidth                |
@@ -197,7 +197,7 @@ function recover(){
 |                                               |                               |
 | <b>文本标签和属性对照</b>                     |                               |
 | CSS 语法（不区分大小写）                      | JavaScript 语法（区分大小写） |
-| letter-spacing  letterSpacing                 |                               |
+| letter-spacing                                | letterSpacing                 |
 | line-break                                    | lineBreak                     |
 | line-height                                   | lineHeight                    |
 | text-align                                    | textAlign                     |
