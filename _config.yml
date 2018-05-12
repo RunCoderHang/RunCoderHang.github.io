@@ -18,7 +18,7 @@ links:
   # - name:         首页
   #   url:          /
   #   external:     false
-  - name:         Aritcle
+  - name:         Article
     url:          /article
     external:     false
   - name:         Note
