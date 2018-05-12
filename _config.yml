@@ -1,5 +1,5 @@
 # ----------- CONFIGURABLE START -----------
-title:            "「Hang's blog」|Github blog|多读书,多看报,多敲代码,多睡觉"
+title:            "「Hang's blog」|多读书,多看报,多敲代码,多睡觉"
 description:      "欢迎来到 「Hang's blog」 | 多读书,多看报,多敲代码,多睡觉"
 url:              https://HangForFreedom.github.io # 域名
 signoff:          "HangForFreedom" # Your name
@@ -15,25 +15,25 @@ paginate: 12
 paginate_path: "liberxuepage:num"
 gems: [jekyll-paginate]
 links:
-  - name:         首页
-    url:          /
-    external:     false
-  - name:         博文
+  # - name:         首页
+  #   url:          /
+  #   external:     false
+  - name:         Aritcle
     url:          /article
     external:     false
-  - name:         随笔
+  - name:         Note
     url:          /note
     external:     false
-  - name:         案例
+  - name:         Demo
     url:          /demo
     external:     false
-  - name:         归档
+  - name:         Archives
     url:          /archives
     external:     false
-  - name:         标签
+  - name:         Tags
     url:          /tags
     external:     false
-  - name:         关于
+  - name:         About
     url:          /about
     external:     false
 # ------------ CONFIGURABLE END ------------
