@@ -5,41 +5,8 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 	<title>test</title>
 	<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css1.css" id="css">
-	<!-- <link rel="stylesheet" href="css2.css" id="css"> -->
 	<!---------------------- CSS ----------------------->
-	<style type="text/css">
-		@media screen and (max-width: 700px){
-			.main{
-				width: 350px;
-				height: 300px;
-			}
-			.style1{
-				width: 110px;
-				height: 110px;
-				margin: 85px auto;
-				line-height: 39px;
-				margin: 78px auto;
-			}
-			.style2{
-				width: 70px;
-				height: 70px;
-				font-size: 14px;
-				line-height: 24px;
-				margin: 95px auto;
-				border-radius: 50%;
-			}
-			.tool{
-				width: 178px;
-				height: 300px;
-				padding: 10px 0;
-			}
-			.btn{
-				width: 178px;
-				margin: 17px auto;
-				font-size: 10px;
-			}
-		}
+	
 	</style>
 </head>
 <style>
@@ -78,40 +45,10 @@
 	</header>
 
 	<!---------------------- 详解 ----------------------->
-	<div class="main">
-		<div id="tool" class="tool">
-			<input  class="btn btn-info" type="button" value="【div.style.CSS】更改样式" onclick="changeBackgroundColor()">
-			<input class="btn btn-info" type="button" value="【div.style.cssText】更改样式" onclick="changeFontSize()" >
-			<input class="btn btn-info" type="button" value="【div.className】更改样式" onclick="addRadius()" >
-			<input class="btn btn-info" type="button" value="更改外联css样式" onclick="recover()" >
-		</div>
-		<div id="div" class="style1">
-			我不是按钮<br>它才是<br><<
-		</div>
-	</div>
+	
 
 	<!---------------------- Js ----------------------->
 	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
 	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
-
-	<script>
-		function changeBackgroundColor(){
-			var div = document.getElementById("div");
-			div.style.backgroundColor="#06d6a0";
-		}
-		function changeFontSize(){
-			var div = document.getElementById("div");
-			div.style.cssText = "font-size: 7px;"
-		}
-		function addRadius(){
-			var div = document.getElementById("div");
-			//div.className = "style2";
-		    div.setAttribute("class", "style2");
-		}
-		function recover(){
-			var div = document.getElementById("css");
-   			div.setAttribute("href","css2.css");
-		}
-	</script>
 </body>
 </html>
