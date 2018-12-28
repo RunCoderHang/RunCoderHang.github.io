@@ -1,6 +1,6 @@
 # ----------- CONFIGURABLE START -----------
-title:            "「Hang's blog」|多读书,多看报,多敲代码,多睡觉"
-description:      "欢迎来到 「Hang's blog」 | 多读书,多看报,多敲代码,多睡觉"
+title:            "Hang Blog|要么牛逼，要么滚蛋"
+description:      "Hang Blog|要么牛逼，要么滚蛋"
 url:              https://HangForFreedom.github.io # 域名
 signoff:          "HangForFreedom" # Your name
 facebook_appid:   
@@ -27,12 +27,15 @@ links:
   - name:         Demo
     url:          /demo
     external:     false
-  - name:         Archives
-    url:          /archives
+  - name:         Bullshit
+    url:          /bullshit
     external:     false
-  - name:         Tags
-    url:          /tags
-    external:     false
+  # - name:         Archives
+  #   url:          /archives
+  #   external:     false
+  # - name:         Tags
+  #   url:          /tags
+  #   external:     false
   - name:         About
     url:          /about
     external:     false
