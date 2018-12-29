@@ -62,6 +62,16 @@ description: "吐槽生活，吐槽世界"
 					font-size: 12px;
 					color: #f7f7f7;
 				}
+				.shuoshuo-link{
+					position: absolute;
+					left: 0;
+					right: 0;
+					top: 0;
+					bottom: 0;
+					z-index: 10;
+					cursor: pointer;
+					border: none;
+				}
 			</style>
 			<ul class="shuoshuo-list">
 	  {% for posts in site.posts %}
@@ -70,7 +80,7 @@ description: "吐槽生活，吐槽世界"
 	   				<img class="shuoshuo-icon" src="{{ site.url }}/style/favicons/favicon.ico">
 	   				<div class="shuoshuo-content">
 	   					<div class="shuoshuo-content-inner bg-{{posts.background }}">
-	   						<p>{{ posts.content | strip_html | strip_newlines | truncate: 100 }}</p>
+	   						<p>{{ posts.content | strip_html | strip_newlines | truncate: 200 }}</p>
 	   						<div class="shuoshuo-info">
 	   							<span>{{ posts.date | date: "%F %H:%M:%S "}}</span>
 	   						</div>

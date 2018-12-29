@@ -5,7 +5,7 @@
 	<div class="post-lists">
 		<div class="post-lists-body">
       {% for posts in paginator.posts %}
-		<div class="post-list-item">
+		<div class="post-list-item {{posts.class}}">
 				<div class="post-list-item-container">
 					 <div class="item-thumb  bg-{{posts.background }}" style="background-image:url('{{posts.background-image }}');"></div>
           	<a href="{{ posts.url }}">
