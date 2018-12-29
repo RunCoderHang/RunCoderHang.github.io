@@ -379,6 +379,7 @@ pre code::after {font-size: 1rem;color: #BFBFBF;position: absolute;top: 5px;righ
    .post-header-thumb-cover{height:280px;}
    .post-header-thumb-op{height:280px;}
    .post-header-thumb-container{top:80px;}
+   .gitment-root-container {width: 98%;margin: 19px auto;}
 }
 @media(max-width:880px){
    .index-page{padding:90px 0 0;}
@@ -396,6 +397,7 @@ pre code::after {font-size: 1rem;color: #BFBFBF;position: absolute;top: 5px;righ
    .footer-meta .footer-container{padding:0;}
    .main-content{margin:0 auto;}
    .footer-meta .meta-item{padding:0 20px;}
+   .gitment-root-container {width: 100%;margin: 19px auto;}
 }
 @media(max-width:700px){
    .comment-form .input-control{max-width:100%;}
@@ -408,6 +410,7 @@ pre code::after {font-size: 1rem;color: #BFBFBF;position: absolute;top: 5px;righ
    .related-post-lists{padding-top:15px;}
    .post-onelist-item-container{padding:20px 20px 25px;}
    .post-onelist-item-container .onelist-item-thumb{min-height:240px;}
+   .gitment-root-container {width: 90%;margin: 19px auto;}
 }
 @media(max-width:650px){
    .navbar-menu{display:none;}
@@ -428,6 +431,7 @@ pre code::after {font-size: 1rem;color: #BFBFBF;position: absolute;top: 5px;righ
    .post-header-thumb{display:none;}
    .post-page .post-header{display:inherit;}
    .post-page .post-content .post-tags{display:inherit;}
+   .gitment-root-container {width: 90%;margin: 19px auto;}
 }
 @media(max-width:580px){
    .navbar-search form{width:150px;}
@@ -445,6 +449,7 @@ pre code::after {font-size: 1rem;color: #BFBFBF;position: absolute;top: 5px;righ
    .post-onelist-item-container .item-content{display:none;}
    .post-onelist-item-container .item-readmore{display:none;}
    .post-onelist-item-container .onelist-item-thumb{min-height:180px;}
+   .gitment-root-container {width: 90%;margin: 19px auto;}
 }
 @-webkit-keyframes unpinned{0%{-webkit-transform:translateY(0)}100%{-webkit-transform:translateY(50px)}}
 @keyframes unpinned{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(50px);transform:translateY(50px)}}
