@@ -103,6 +103,29 @@
 	</div>
 </article>
 
+<!-- 文章评论 -->
+<div id="gitmentContainer"></div>
+<!-- 英文版
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+-->
+<!-- 汉化版 -->
+<link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
+<script src="https://billts.site/js/gitment.js"></script>
+<script>
+    var gitment = new Gitment({
+    id: '<%= page.date %>',
+        owner: 'Hang先森',
+        repo: 'hangforfreedom.github.io',
+        oauth: {
+            client_id: 'f6f516b227de5009826d',
+            client_secret: '73ea9c489b8b12ec43106508b9a5a2e56770e5c7',
+        },
+    });
+    gitment.render('gitmentContainer')
+</script>
+
+
 <!-- <div class="related-post-lists">
 	<div class="post-lists">
 		<div class="post-lists-body">

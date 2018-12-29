@@ -9,8 +9,6 @@ create: 原创
 tags:
 - js
 - css
-- animation
-- headroom
 background: orange
 background-image: 
 date:   2018-05-01 18:11:00

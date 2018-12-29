@@ -46,3 +46,9 @@ permalink: /:year/:month/:day/:title.html
 defaults:
   - values:
       layout: "default"
+# ------------ Comments Feature ------------
+
+#gitment
+comment_gitment_repo: Hang先森
+comment_gitment_clientId: f6f516b227de5009826d
+comment_gitment_clientSecret: 73ea9c489b8b12ec43106508b9a5a2e56770e5c7

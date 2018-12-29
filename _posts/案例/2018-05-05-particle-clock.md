@@ -9,7 +9,6 @@ create: 原创
 tags:
 - js
 - canvas
-- 数组
 background: blue
 background-image: 
 date:   2018-05-05 15:41:00

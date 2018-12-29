@@ -9,8 +9,6 @@ create: 转载
 tags:
 - html
 - css
-- flex
-- grid
 background: blue
 background-image: https://hangforfreedom.github.io/style/images/lightblue.png
 date:   2018-04-30 21:20:00

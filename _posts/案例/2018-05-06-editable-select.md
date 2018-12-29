@@ -8,7 +8,6 @@ create: 转载
 tags:
 - js
 - JQuery
-- select
 background: yellow
 background-image: 
 date:   2018-05-06 14:19:00

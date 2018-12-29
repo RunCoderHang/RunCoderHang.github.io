@@ -7,7 +7,6 @@ title:  初识fastclick.js插件使用
 create: 原创
 tags:
 - js
-- fastclick
 background: green
 background-image: https://hangforfreedom.github.io/thumbnails/fastclick.png
 date:   2018-05-01 21:41:00
