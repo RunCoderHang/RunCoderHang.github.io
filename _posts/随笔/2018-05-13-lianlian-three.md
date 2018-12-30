@@ -9,7 +9,7 @@ tags:
 - English
 - 考研
 background: green
-background-image: https://hangforfreedom.github.io/thumbnails/lianlian.jpg
+background-image: 
 date:   2018-05-13 14:08:00
 category: 随笔
 ---

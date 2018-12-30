@@ -6,7 +6,7 @@ title:  Hello World
 create: 原创
 background-image: https://hangforfreedom.github.io/thumbnails/helloworld.jpg
 date:   2018-04-29 00:00:00
-category: 博文
+category: 文章
 ---
 
 ## 世界，你好

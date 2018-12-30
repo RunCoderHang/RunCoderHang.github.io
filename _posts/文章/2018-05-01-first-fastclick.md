@@ -10,7 +10,7 @@ tags:
 background: green
 background-image: https://hangforfreedom.github.io/thumbnails/fastclick.png
 date:   2018-05-01 21:41:00
-category: 博文
+category: 文章
 ---
 
 <img src="https://hangforfreedom.github.io/thumbnails/fastclick.png" alt="fastclick">

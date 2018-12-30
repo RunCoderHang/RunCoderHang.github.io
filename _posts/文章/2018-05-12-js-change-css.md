@@ -11,7 +11,7 @@ tags:
 background: purple
 background-image: 
 date: 2018-05-12 21:28:00
-category: 博文
+category: 文章
 ---
 
 ## 前言

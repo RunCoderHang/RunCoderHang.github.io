@@ -74,17 +74,17 @@ description: "吐槽生活，吐槽世界"
 				}
 			</style>
 			<ul class="shuoshuo-list">
-	  {% for shuos in site.shuos %}
-	   {% if shuos.bullshit%}
+	  {% for posts in site.posts %}
+	   {% if posts.bullshit%}
 	   			<li class="clear-fix">
 	   				<img class="shuoshuo-icon" src="{{ site.url }}/style/favicons/favicon.ico">
 	   				<div class="shuoshuo-content">
-	   					<div class="shuoshuo-content-inner bg-{{shuos.background }}">
-	   						<p>{{ shuos.content | strip_html | strip_newlines | truncate: 150 }}</p>
+	   					<div class="shuoshuo-content-inner bg-{{posts.background }}">
+	   						<p>{{ posts.content | strip_html | strip_newlines | truncate: 150 }}</p>
 	   						<div class="shuoshuo-info">
-	   							<span>{{ shuos.date | date: "%F %H:%M:%S "}}</span>
+	   							<span>{{ posts.date | date: "%F %H:%M:%S "}}</span>
 	   						</div>
-	   						<a href="{{ shuos.url }}" class="shuoshuo-link" title="点击查看详情"></a>
+	   						<a href="{{ posts.url }}" class="shuoshuo-link" title="点击查看详情"></a>
 	   					</div>
 	   					
 	   				</div>
