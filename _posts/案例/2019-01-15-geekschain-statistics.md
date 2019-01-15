@@ -26,7 +26,7 @@ category: 案例
 
 仿照 <a href="https://panjiachen.github.io/vue-element-admin/#/dashboard">**vue-element-admin**</a> 的样式，进行栅格系统分布。可以根据屏幕的大小自适应。  
   
-查看<a href="https://hangforfreedom.github.io/some-cases/栅格系统案例/index.html">栅格系统案例</a>  
+查看<a href="https://hangforfreedom.github.io/some-cases/gridsys/index.html">栅格系统案例</a>  
 
 ```
 /******row 栅格系统******/
