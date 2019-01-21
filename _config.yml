@@ -27,9 +27,9 @@ links:
   - name:         Demo
     url:          /demo
     external:     false
-  - name:         Bullshit
-    url:          /bullshit
-    external:     false
+  # - name:         Bullshit
+  #   url:          /bullshit
+  #   external:     false
   # - name:         Archives
   #   url:          /archives
   #   external:     false
