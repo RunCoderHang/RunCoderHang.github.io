@@ -10,7 +10,7 @@ tags:
 - html
 - css
 background: blue
-background-image: https://hangforfreedom.github.io/style/images/lightblue.png
+background-image:
 date:   2018-04-30 21:20:00
 category: 案例
 ---
