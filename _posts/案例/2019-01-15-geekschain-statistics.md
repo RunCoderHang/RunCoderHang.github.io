@@ -115,7 +115,10 @@ category: 案例
 
 ## 四、ECharts响应式
 
-1. 限制柱状图的宽度：```barMaxWidth：30//设置柱状最大的宽度```
+1. 限制柱状图的宽度：  
+```barMaxWidth：30//设置柱状最大的宽度```
 2. 设置y轴的label标签显示  
-3. 设置图表响应式(单个)```在配置项最后加上语句window.onresize = myChart.resize;```
-4. 设置多个图表响应式```在配置项最后加上下面语句 window.addEventListener(“resize”, function () { myChart.resize(); });```
+3. 设置图表响应式(单个)  
+```在配置项最后加上语句window.onresize = myChart.resize;```
+4. 设置多个图表响应式  
+```在配置项最后加上下面语句 window.addEventListener(“resize”, function () { chartNum.resize(); chartTrend.resize(); });```
