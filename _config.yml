@@ -16,7 +16,7 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: "https://HangForFreedom.github.io" #域名
+url: 'https://HangForFreedom.github.io' #域名
 baseurl: "" #根目录
 permalink: pretty
 
