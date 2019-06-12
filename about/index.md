@@ -1,4 +1,5 @@
 ---
+title: Hang Blog
 layout: page
 type: about
 data: 2019-06-12 16:10:11

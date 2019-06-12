@@ -2,6 +2,7 @@
 title: Emoji Test
 date:   2019-06-12 16:40:00
 tags:
+categories: 学习总结
 ---
 
 Markdown也能使用emoji表情啦！  
