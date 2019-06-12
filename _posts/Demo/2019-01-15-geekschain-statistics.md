@@ -5,7 +5,7 @@ tags:
 - html
 - ECharts
 date:   2019-01-15 19:50:00
-categories: Demo
+categories: 前端案例
 ---
 
 重新学习前端知识时，制作了一个统计页面demo。由于很久没有更新内容，所以将这次案例用到的内容整理了一下。  

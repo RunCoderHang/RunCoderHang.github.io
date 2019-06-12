@@ -4,7 +4,7 @@ tags:
 - js
 - canvas
 date:   2018-05-05 15:41:00
-categories: Demo
+categories: 前端案例
 ---
 
 学习了使用``canvas``和``js``实现粒子时钟的效果。知识点有些多，所以在此整理一下。  
