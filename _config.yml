@@ -445,10 +445,10 @@ gitalk:
   admin: # "HangForFreedom" # colingpt
 
 # Support for valine comments system.
-valine:
-  enable: true
-  app_id: hjESuSBRqkDcoUHWY7GJOjsx-gzGzoHsz
-  app_key: d29qp3GgL6TOVQaxcK7XqP2Q
+# valine:
+#   enable: true
+#   app_id: hjESuSBRqkDcoUHWY7GJOjsx-gzGzoHsz
+#   app_key: d29qp3GgL6TOVQaxcK7XqP2Q
 
 # Baidu Share
 # Available value:
