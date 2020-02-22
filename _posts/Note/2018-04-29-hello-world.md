@@ -8,9 +8,9 @@ categories: 生活随笔
 
 这是我的第一篇文章。
 
-![HelloWorld](https://hangforfreedom.github.io/thumbnails/helloworld.jpg)
+![HelloWorld](https://runcoderhang.github.io/thumbnails/helloworld.jpg)
 
-本博客由 **<a href="https://github.com/HangForFreedom/HangForFreedom.github.io">Github</a>+Jekyll** 搭建。  
+本博客由 **<a href="https://github.com/RunCoderHang/RunCoderHang.github.io">Github</a>+Jekyll** 搭建。  
 
 ~~主题选自<a href="https://github.com/Liberxue/liberxue.github.io">Liberxue</a>大佬，并在此基础上更改。~~  
 

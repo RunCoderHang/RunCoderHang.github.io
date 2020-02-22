@@ -7,7 +7,7 @@ date:   2018-04-30 21:20:00
 categories: 前端案例
 ---
 
-参考<a href="https://segmentfault.com/a/1190000010698609" target="_blank">文章</a>实现了``右边固定，左边自适应``的两栏布局的七种方法。最终的效果，可以查看<a href="https://hangforfreedom.github.io/some-cases/demo-4/demo.html" target="_blank">这里</a>。  
+参考<a href="https://segmentfault.com/a/1190000010698609" target="_blank">文章</a>实现了``右边固定，左边自适应``的两栏布局的七种方法。最终的效果，可以查看<a href="https://runcoderhang.github.io/some-cases/demo-4/demo.html" target="_blank">这里</a>。  
 
 与原案例不同的是右边``div``和左边``div``在html源码中的书写的先后顺序也是不同的。  
 

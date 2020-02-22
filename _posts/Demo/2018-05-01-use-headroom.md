@@ -7,7 +7,7 @@ date:   2018-05-01 18:11:00
 categories: 前端案例
 ---
 
-浏览一位博主的博客时，发现与我的博客主题很相似。但是，我的博客中头部``header``不能在页面滚动时消失。于是，我开始添加效果，并做出了相应的<a href="https://hangforfreedom.github.io/some-cases/demo-5/demo.html" target="_blank">案例</a>提供参考。  
+浏览一位博主的博客时，发现与我的博客主题很相似。但是，我的博客中头部``header``不能在页面滚动时消失。于是，我开始添加效果，并做出了相应的<a href="https://runcoderhang.github.io/some-cases/demo-5/demo.html" target="_blank">案例</a>提供参考。  
 <strong>Ps：</strong> 案例是基于``bootstrap``的响应式设计
 
 ---
@@ -166,4 +166,4 @@ header.init();
 
 以上一些参数的解释有些抽象，此网址的参数改变更为具体<a href="http://www.bootcss.com/p/headroom.js/playroom/" target="_blank">http://www.bootcss.com/p/headroom.js/playroom/</a>
 
-<a href="https://hangforfreedom.github.io/some-cases/demo-5/demo.html" target="_blank">我的案例 https://hangforfreedom.github.io/some-cases/demo-5/demo.html</a>
+<a href="https://runcoderhang.github.io/some-cases/demo-5/demo.html" target="_blank">我的案例 https://runcoderhang.github.io/some-cases/demo-5/demo.html</a>

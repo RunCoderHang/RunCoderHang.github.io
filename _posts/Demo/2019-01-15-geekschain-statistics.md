@@ -10,13 +10,13 @@ categories: 前端案例
 
 重新学习前端知识时，制作了一个统计页面demo。由于很久没有更新内容，所以将这次案例用到的内容整理了一下。  
 
-查看<a href="https://hangforfreedom.github.io/some-cases/geekschain/statistics/index.html">案例</a>
+查看<a href="https://runcoderhang.github.io/some-cases/geekschain/statistics/index.html">案例</a>
 
 ## 一、栅格系统
 
 仿照 <a href="https://panjiachen.github.io/vue-element-admin/#/dashboard">**vue-element-admin**</a> 的样式，进行栅格系统分布。可以根据屏幕的大小自适应。  
   
-查看<a href="https://hangforfreedom.github.io/some-cases/gridsys/index.html">栅格系统案例</a>  
+查看<a href="https://runcoderhang.github.io/some-cases/gridsys/index.html">栅格系统案例</a>  
 
 ```css
 /******row 栅格系统******/

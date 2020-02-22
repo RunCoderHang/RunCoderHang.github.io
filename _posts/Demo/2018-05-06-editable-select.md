@@ -9,7 +9,7 @@ categories: 前端案例
 
 我们知道，一般``select``下拉框是只能选择的，不能用来输入内容的。而有时我们会遇到下拉框中没有要选择的信息项或者下拉选项特别多时，我们可以让``select``变成``text``，允许用户输入想要的内容，同时还可以在输入的时候将包含关键字的项也列出来，供快速选择。
 
-查看<a href="https://hangforfreedom.github.io/some-cases/demo-2/demo.html" target="_blank">案例</a>
+查看<a href="https://runcoderhang.github.io/some-cases/demo-2/demo.html" target="_blank">案例</a>
 
 本文将用实例和大家分享一款基于``jQuery``的下拉框插件，它允许用户输入内容，同时下拉选项中会及时匹配相关选项，支持键盘操作，还支持``html``选项内容，当然还能让下拉的过程带有动画效果。我们来看下如何使用。  
 
@@ -34,7 +34,7 @@ categories: 前端案例
 
 此外还需要加载``jQuery``库和``jquery.editable-select.js``文件  
 
-传送门，走你！<a href="https://hangforfreedom.github.io/some-cases/demo-2/js/jquery-3.2.1.min.js" download="">jQuery下载</a>  <a href="https://hangforfreedom.github.io/some-cases/demo-2/js/jquery-editable-select.min.js">jquery.editable-select.js下载</a>  
+传送门，走你！<a href="https://runcoderhang.github.io/some-cases/demo-2/js/jquery-3.2.1.min.js" download="">jQuery下载</a>  <a href="https://runcoderhang.github.io/some-cases/demo-2/js/jquery-editable-select.min.js">jquery.editable-select.js下载</a>  
 
  * <b>jQuery</b>
 

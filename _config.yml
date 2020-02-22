@@ -6,7 +6,7 @@
 encoding: utf-8
 
 # Site
-title: "Hang Blog"
+title: "Run! Coder"
 subtitle:
 description: "态度决定一切"
 author: Hang
@@ -16,7 +16,7 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: 'https://HangForFreedom.github.io' #域名
+url: 'https://runcoderhang.github.io' #域名
 baseurl: "" #根目录
 permalink: pretty
 
@@ -81,7 +81,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "HangBlog, HangForFreedom"
+keywords: "RunCoder, runcoder, Runcoder, runCoder"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -216,7 +216,7 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  GitHub: "https://github.com/HangForFreedom"
+  GitHub: "https://github.com/RunCoderHang"
   CSDN: "https://blog.csdn.net/themisery_hang"
 
 # Social Links Icons

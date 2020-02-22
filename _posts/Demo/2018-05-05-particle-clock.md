@@ -8,7 +8,7 @@ categories: 前端案例
 ---
 
 学习了使用``canvas``和``js``实现粒子时钟的效果。知识点有些多，所以在此整理一下。  
-可查看<a href="https://hangforfreedom.github.io/some-cases/demo-6/demo.html" target="_blank">案例</a>
+可查看<a href="https://runcoderhang.github.io/some-cases/demo-6/demo.html" target="_blank">案例</a>
 
 ## 思路
 
@@ -35,7 +35,7 @@ categories: 前端案例
 
 <font color="red">需要知道</font>：一个粒子是一个圆形，圆形之间必须要有间距否则会紧挨在一起，所以需要一个矩形将圆形包裹起来并且矩形和圆形留有间距。不废话，看图！
 
-<img src="https://hangforfreedom.github.io/thumbnails/canvasTime.png" alt="canvasTime">
+<img src="https://runcoderhang.github.io/thumbnails/canvasTime.png" alt="canvasTime">
 
 确立画圆的方法：``arc( x, y, r, 0, 2*PI, false);``。可以画圆后再确立圆的半径``r``以及每个圆的中心坐标  
 来吧，我们要开始做数学题了(微笑)
