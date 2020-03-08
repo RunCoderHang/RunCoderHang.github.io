@@ -101,5 +101,5 @@ struct ListNode* reverseList(struct ListNode* head) {
 <div align="center">
     <hr style="height:1px;"/>
     <br>
-    <img width="200px" src="https://runcoderhang.github.io/thumbnails/wxgzh-hang.png"></img>
+    <img width="200px" src="https://runcoderhang.github.io/thumbnails/wxgzh-hang.png">
 </div>

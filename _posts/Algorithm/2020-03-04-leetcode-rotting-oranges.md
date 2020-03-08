@@ -23,7 +23,7 @@ categories: 数据结构与算法
 示例 1：
 
 <div align="center">
-    <img width="600px" src="https://runcoderhang.github.io/thumbnails/rotting-oranges.png"></img>
+    <img width="600px" src="https://runcoderhang.github.io/thumbnails/rotting-oranges.png">
 </div>
 
 ```
@@ -146,5 +146,5 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize){
 <div align="center">
     <hr style="height:1px;"/>
     <br>
-    <img width="200px" src="https://runcoderhang.github.io/thumbnails/wxgzh-hang.png"></img>
+    <img width="200px" src="https://runcoderhang.github.io/thumbnails/wxgzh-hang.png">
 </div>

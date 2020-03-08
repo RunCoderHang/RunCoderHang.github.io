@@ -58,7 +58,7 @@ categories: 数据结构与算法
 如果数据值小时，则直接入队。如果数据值大时，且队列不为空，则将除队头元素外的元素挨个出栈，直到队列为空时，重新入队。如图：
 
 <div align="center">
-    <img width="437px" src="https://runcoderhang.github.io/thumbnails/dui-lie-de-zui-da-zhi-lcof.gif"></img>
+    <img width="437px" src="https://runcoderhang.github.io/thumbnails/dui-lie-de-zui-da-zhi-lcof.gif">
 </div>
 
 ## 三、代码实现
@@ -153,5 +153,5 @@ void maxQueueFree(MaxQueue* obj) {
 <div align="center">
     <hr style="height:1px;"/>
     <br>
-    <img width="200px" src="https://runcoderhang.github.io/thumbnails/wxgzh-hang.png"></img>
+    <img width="200px" src="https://runcoderhang.github.io/thumbnails/wxgzh-hang.png">
 </div>

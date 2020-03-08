@@ -85,3 +85,9 @@ while( b!=0 ) {
     printf("gcd=%d\n", a);
 */
 ```
+
+<div align="center">
+    <hr style="height:1px;"/>
+    <br>
+    <img width="200px" src="https://runcoderhang.github.io/thumbnails/wxgzh-hang.png">
+</div>
