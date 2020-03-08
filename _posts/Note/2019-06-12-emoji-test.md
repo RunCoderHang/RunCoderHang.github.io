@@ -5,7 +5,9 @@ tags:
 categories: 学习总结
 ---
 
-Markdown也能使用emoji表情啦！  
+`Markdown` 也能使用 `emoji` 表情啦！  
+
+喜欢 `emoji` 表情的可以点击查看：[`Markdown-Emoji`](https://github.com/RunCoderHang/LeetCode-Notes/blob/master/image/markdown-emoji.md)
 
 This is an emoji test. :smile: lol.
 
