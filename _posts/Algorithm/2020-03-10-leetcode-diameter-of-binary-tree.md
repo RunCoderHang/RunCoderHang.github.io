@@ -37,7 +37,7 @@ categories: 数据结构与算法
 根据题目的说明，要找最大直径长度，但不一定要过根结点。如下图：
 
 <div align="center">
-    <img width="670px" src="https://runcoderhang.github.io/thumbnails/diameter-of-binary-tree01.png">
+    <img width="276px" src="https://runcoderhang.github.io/thumbnails/diameter-of-binary-tree01.png">
 </div>
 
 根据上图二叉树，我们可以找到它的最大直径长度：3 。其中有 `[3, 2, 5, 4]` 和 `[3, 2, 5, 6]` 两个路径。
@@ -59,7 +59,7 @@ categories: 数据结构与算法
 左右子树的最大深度值进行计算：**`L + R + 1`**，可以得出该二叉树的最大直径。
 
 <div align="center">
-    <img width="670px" src="https://runcoderhang.github.io/thumbnails/diameter-of-binary-tree03.png">
+    <img width="280px" src="https://runcoderhang.github.io/thumbnails/diameter-of-binary-tree03.png">
 </div>
 
 时间复杂度： **O(n)**
