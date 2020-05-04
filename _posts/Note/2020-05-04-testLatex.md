@@ -1,21 +1,13 @@
 ---
-title:  测试Latex
-tags:
-- note
-date:   2020-05-04 16:27:00
+title:  Test Latex
+date:   2020-05-04 20:00:00
 categories: 生活随笔
 ---
 
-###内容目录（由[TOC]自动生成）
-
-[TOC]
-###关于网站访问慢的问题
-有时网站的访问不稳定，可分别尝试不同的服务器
-[服务器1,http://md.aclickall.com](http://md.aclickall.com)
-[服务器2,http://md2.aclickall.com](http://md2.aclickall.com)
 
 
 ###Md2All 简介
+
 Markdown排版利器，支持 **"一键排版"** 、自定义css、80多种代码高亮。
 能让Markdown内容，无需作任何调整就能**一键复制**到微信公众号、博客园、掘金、知乎、csdn、51cto、wordpress、hexo。。。等平台。
 支持把图片自动上传到云图床;
@@ -24,8 +16,11 @@ Markdown排版利器，支持 **"一键排版"** 、自定义css、80多种代�
 甚至支持直接用原生的html,css排版。
 
 ####详细教程
+
 [Md2All详细教程,请参考：https://www.cnblogs.com/garyyan/p/8329343.html](https://www.cnblogs.com/garyyan/p/8329343.html )
+
 ####对公众号、博客的优化
+
 支持代码块，并解决常见的代码块换行不正确,特别是iPone、iPad上不能滚动的问题;
 解决把内容粘贴到公众号时，图片、或样式丢失的问题;
 
