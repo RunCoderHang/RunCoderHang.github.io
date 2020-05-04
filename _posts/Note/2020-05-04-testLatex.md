@@ -2,6 +2,7 @@
 title:  Test Latex
 date:   2020-05-04 20:00:00
 categories: 生活随笔
+mathjax: true
 ---
 
 
