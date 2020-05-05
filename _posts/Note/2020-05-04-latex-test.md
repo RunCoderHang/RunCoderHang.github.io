@@ -1,13 +1,15 @@
 ---
 title:  LaTex Test
 date:   2020-05-04 20:00:00
+tags:
+    - LaTeX
 categories: 学习总结
 mathjax: true
 ---
 
 
 
-测试使用 `markdown` 中书写 `Latex` 数学公式。 **PAT** 中总是有一堆数学公式，GitHub上不支持，结果在博客中发现了这个功能。
+测试使用 `markdown` 中书写 `LaTeX` 数学公式。 **PAT** 中总是有一堆数学公式，GitHub上不支持，结果在博客中发现了这个功能。
 
 多刷新几次，总会渲染成功的。
 
@@ -80,7 +82,7 @@ $$H(D_2) = -(\frac{2}{4}\ log_2 \frac{2}{4} + \frac{2}{4}\ log_2 \frac{2}{4}) = 
 * Blackboard Bold: `\mathbb{ABCDEFGHIJKLMNOPQRSTUVWXZ}`
     - $\mathbb{ABCDEFGHIJKLMNOPQRSTUVWXZ}$
 * Sans Serif: `\mathsf{ABCDEFGHIJKLMNOPQRSTUVWXZ}`
-    - $\mathsf{ABCDEFGHIJKLMNOPQRSTUVWXZ}}$
+    - $\mathsf{ABCDEFGHIJKLMNOPQRSTUVWXZ}$
 
 
 ### 3.4 分组
