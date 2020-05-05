@@ -362,7 +362,7 @@ highlight_theme: normal
 # Third Party Services Settings
 # ---------------------------------------------------------------
 
-# MathJax Support
+# MathJax Support  |  mathjax: true
 mathjax:
   enable: true
   per_page: false

@@ -4,7 +4,7 @@ tags:
 - js
 - css
 date: 2018-05-12 21:28:00
-categories: JavaScript
+categories: 学习总结
 ---
 
 在很多情况下，都需要对网页上元素的样式进行动态的修改。在JavaScript中提供几种方式动态的修改样式，下面将介绍方法的使用、效果、以及缺陷。  
