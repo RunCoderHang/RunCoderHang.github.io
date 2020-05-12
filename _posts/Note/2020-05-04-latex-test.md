@@ -23,7 +23,9 @@ mathjax: true
 
 $\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$
 
-显示复杂度： $O(logn)$ 、 $O(log^2n)$ 、 $O(n)$ 、 $O(nlogn)$ 、 $O(n^2)$ 、 $O(n^3)$ 、 $O(2^n)$
+显示复杂度：
+
+$O(1)$ < $O(logn)$ < $O(n)$ < $O(nlogn)$ <  < $O(nlogn)$ < $O(n^2)$ < $O(n^3)$ < $O(2^n)$ < $O(n!)$ < $O(n^n)$
 
 
 ### 1.2 块公式：$$...$$
