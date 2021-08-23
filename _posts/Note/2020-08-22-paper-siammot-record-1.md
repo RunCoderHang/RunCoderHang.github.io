@@ -98,9 +98,9 @@ $$
 (v^{t+\delta}_i, \tilde{R}^{t+\delta}_i) = \mathcal{T}(\mathbf{f}^t_{R_i}, \mathbf{f}^{t+\delta}_{S_i}; \Theta)
 $$
 
-其中 $\mathcal{T}$ 表示参数为 $\Theta$ 的 Siamese 跟踪器，而 $\mathbf{f}^t_{R_i}$ 是在 $I^t$ 帧上根据检测框 $R^t_i$ 提取出的特征图，而 $\mathbf{f}^{t+\theta}_{S_i}$ 则是在 $I^{t+\theta}$ 帧上的搜索区域 $S^{t+\theta}_i$ 提取出的特征图。搜索区域 $S^{t+\theta}_i$ 是 $R^t_i$ 通过一个比例因子 r (r > 1) 扩展获得的，不过扩展前后保持相同的几何中心。 如图黄色虚线框所示。作者使用 Mask-RCNN 对区域提取特征 $\mathbf{f}^t_{R_i}$ 和 $\mathbf{f}^{t+\theta}_{S_i}$ 。
+其中 $\mathcal{T}$ 表示参数为 $\Theta$ 的 Siamese 跟踪器，而 $\mathbf{f}^t_{R_i}$ 是在 $I^t$ 帧上根据检测框 $R^t_i$ 提取出的特征图，而 $\mathbf{f}^{t+\delta}_{S_i}$ 则是在 $I^{t+\delta}$ 帧上的搜索区域 $S^{t+\delta}_i$ 提取出的特征图。搜索区域 $S^{t+\delta}_i$ 是 $R^t_i$ 通过一个比例因子 r (r > 1) 扩展获得的，不过扩展前后保持相同的几何中心。 如图黄色虚线框所示。作者使用 Mask-RCNN 对区域提取特征 $\mathbf{f}^t_{R_i}$ 和 $\mathbf{f}^{t+\delta}_{S_i}$ 。
 
-$v^{t+\delta}_i$ 是在 $t+\delta$ 时刻对检测到的实例 $i$ 的可见性置信度。只要实例在 $S^{t+\theta}_i$ 可见， $\mathcal{T}$ 就会产生一个高分置信度 $v^{t+\delta}_i$ ，否则 $\mathcal{T}$ 会产生一个低分的。
+$v^{t+\delta}_i$ 是在 $t+\delta$ 时刻对检测到的实例 $i$ 的可见性置信度。只要实例在 $S^{t+\delta}_i$ 可见， $\mathcal{T}$ 就会产生一个高分置信度 $v^{t+\delta}_i$ ，否则 $\mathcal{T}$ 会产生一个低分的。
 
 此公式的建模过程和很多基于 Simaese 的单目标跟踪器的思路非常相似。例如：“Fully-convolutional siamese
 networks for object tracking.”、“Siamrpn++” 等。因此在多目标跟踪场景中只需要多次使用上式，即可完成每个 $R^t_i \in \mathbf{R}^t$ 的预测。 SiamMOT 允许这个操作并行进行，并且只需要计算一次 backbone ，大大提高了在线跟踪的效率。
