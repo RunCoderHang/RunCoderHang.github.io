@@ -7,6 +7,8 @@ categories: 学习总结
 ---
 
 
+## 一、前言
+
 关于多目标跟踪（MOT）这方面的知识，对于我来说是一个新的知识点。此前并没有接触过此方面的内容，所以对于 SiamMOT 本篇论文的论述也是会比较表面一点，我也仅仅是略懂其中的皮毛。在后续的工作中，也希望能将本篇文论作为一个切入点，去接触更多的有关多目标跟踪的内容。
 
 ## 二、Multiple Object Tracking
@@ -42,7 +44,7 @@ $$
 
 离线跟踪则允许利用之后的帧的信息从而获得全局最优解。这也是在早期MOT作品中，会构建一个大型离线图，这可以重新识别跨度越大时间间隔实例。离线追踪的设定也不太适合实际应用场景，但是以一种“batch”的形式进行的离线跟踪（每次得到若干帧，在这些帧中求全局最优）也是可行的，只是会导致一点延迟。因此不适用于实时跟踪。
 
-![a01e4e4e634a800a7399a9ed345c8234.png](./_resources/fbf02ede890b4b849cde4fbfc59a828c.png)
+![a01e4e4e634a800a7399a9ed345c8234.png](https://runcoderhang.github.io/thumbnails/fbf02ede890b4b849cde4fbfc59a828c.png)
 图源：博客网图（上：在线跟踪；下：离线跟踪）
 
 
@@ -84,7 +86,7 @@ SiamMOT 是将基于区域检测网络（Faster-RCNN）与两个运动模型（�
 - 和 SORT 一样，SiamMOT 包含一个运动模型，可以跟踪每一个 $t$ 到 $t+\delta$ 时间中通过将时间 $t$ 的 bounding box $R^t_i$ 传播到 $t+\delta$ 中 $\tilde{R}^{t+\delta}_i$ 的被检测到的实例。
 - 空间匹配过程中，将跟踪器输出的 $\tilde{R}^{t+\delta}_i$ 与 $t+\delta$ 时刻的检测 $R^{t+\delta}_i$ 相关联，从而检测到的实例从 $t$ 连接到 $t+\delta$
 
-![c5fae4d06a174bab38a283088b2e214e.png](./_resources/fd34373bf4e24888a4f6e87047086130.png)
+![c5fae4d06a174bab38a283088b2e214e.png](https://runcoderhang.github.io/thumbnails/fd34373bf4e24888a4f6e87047086130.png)
 
 
 ### Motion modelling with Siamese tracker
