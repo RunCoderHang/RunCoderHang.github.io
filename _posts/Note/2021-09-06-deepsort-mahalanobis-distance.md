@@ -1,5 +1,5 @@
 ---
-title:  DeepSOR之马氏距离
+title:  DeepSORT之马氏距离
 tags: 
 - DeepSORT
 date: 2021-09-05 23:30:00
