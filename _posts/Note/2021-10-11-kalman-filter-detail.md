@@ -118,9 +118,9 @@ $$
 
 用测量值来修正估计值 $z_t = H_tx_t + v_t$
 
-有了 measurement 以后需要映射到测量空间，测量空间是通过传感器 reading 等测量得到的。而这个映射就需要测量矩阵 $H_t$ ，公式为： $\tilde{y}_t = z_t - H_t\hat{x}_{t|t-1}$
+有了 measurement 以后需要映射到测量空间，测量空间是通过传感器 reading 等测量得到的。而这个映射就需要测量矩阵 $H_t$ ，公式为： $\tilde{y}_t = z_t - H_t\hat{x}_{t \mid t-1}$
 
-$S_t = H_tP_{t|t-1}H_t^T + R_t$
+$S_t = H_tP_{t \mid t-1}H_t^T + R_t$
 
 
 ![cbea5ff68787408517db4c643ee52dd7.png](https://runcoderhang.github.io/thumbnails/28acc7a992bf442f8c8546244db98233.png)
@@ -141,15 +141,15 @@ $S_t = H_tP_{t|t-1}H_t^T + R_t$
 ![89b7cc9994036fb33af3729bcab0438c.png](https://runcoderhang.github.io/thumbnails/bd611788f0b744a1aa43d1984b49ea3a.png)
 
 
-得到新的分布之后，就可以计算卡尔曼增益（Kalman Gain） $K$ ：它表示我们应该集中注意预测值还是测量值的一个比例 $K_t = P_{t|t-1}H_t^TS_{-1}$
+得到新的分布之后，就可以计算卡尔曼增益（Kalman Gain） $K$ ：它表示我们应该集中注意预测值还是测量值的一个比例 $K_t = P_{t \mid t-1}H_t^TS_{-1}$
 
 有了卡尔曼增益后，就可以更新状态 $x$ 和协方差矩阵 $P$
 
-$\hat{x}_{t|t} = \hat{x}_{t|t-1} + K_t\tilde{y}_k$
+$\hat{x}_{t \mid t} = \hat{x}_{t \mid t-1} + K_t\tilde{y}_k$
 
-$\hat{x}_{t|t} = \hat{x}_{t|t-1} + K_t(z_t - H\hat{x}_{t|t-1})$
+$\hat{x}_{t \mid t} = \hat{x}_{t \mid t-1} + K_t(z_t - H\hat{x}_{t \mid t-1})$
 
-$P_{t|t} = (I - K_tH_t)P_{t|t-1}$
+$P_{t \mid t} = (I - K_tH_t)P_{t \mid t-1}$
 
 接下来，把校正以后的值作为新的值再往前递推。再随着每帧的增加再进行卡尔曼滤波的一个过程。
 
