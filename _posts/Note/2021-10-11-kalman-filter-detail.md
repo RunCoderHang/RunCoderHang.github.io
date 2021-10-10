@@ -118,7 +118,7 @@ $$
 
 用测量值来修正估计值 $z_t = H_tx_t + v_t$
 
-有了 measurement 以后需要映射到测量空间，测量空间是通过传感器 reading 等测量得到的。而这个映射就需要测量矩阵 $H_t$ ，公式为： $\tilde{y}_t = z_t - H_t\hat{x}_{t \mid t-1}$
+有了 measurement 以后需要映射到测量空间，测量空间是通过传感器 reading 等测量得到的。而这个映射就需要测量矩阵 $H_t$ ，公式为： $\tilde{y}_t = z_t - H_t \hat{x}_{t \mid t-1}$
 
 $S_t = H_tP_{t \mid t-1}H_t^T + R_t$
 
@@ -145,9 +145,9 @@ $S_t = H_tP_{t \mid t-1}H_t^T + R_t$
 
 有了卡尔曼增益后，就可以更新状态 $x$ 和协方差矩阵 $P$
 
-$\hat{x}_{t \mid t} = \hat{x}_{t \mid t-1} + K_t\tilde{y}_k$
+$\hat{x}_{t \mid t} = \hat{x}_{t \mid t-1} + K_t \tilde{y}_k$
 
-$\hat{x}_{t \mid t} = \hat{x}_{t \mid t-1} + K_t(z_t - H\hat{x}_{t \mid t-1})$
+$\hat{x}_{t \mid t} = \hat{x}_{t \mid t-1} + K_t(z_t - H \hat{x}_{t \mid t-1})$
 
 $P_{t \mid t} = (I - K_tH_t)P_{t \mid t-1}$
 
