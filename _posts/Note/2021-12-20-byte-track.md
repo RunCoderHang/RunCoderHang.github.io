@@ -1,5 +1,5 @@
 ---
-title:  ByteTrack:Multi-Object Tracking by Associating Every Detection Box
+title: ByteTrack:Multi-Object_Tracking_by_Associating_Every_Detection_Box
 tags: 
 date: 2021-12-20 23:30:00
 categories: 学习总结
