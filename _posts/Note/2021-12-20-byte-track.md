@@ -1,12 +1,12 @@
 ---
-title: ByteTrack:Multi-Object_Tracking_by_Associating_Every_Detection_Box
+title: ByteTrack
 tags: 
 date: 2021-12-20 23:30:00
 categories: 学习总结
 ---
 
 
-Byteck：通过关联每个检测框进行多目标跟踪
+Byteck：Multi-Object Tracking by Associating Every Detection Box（通过关联每个检测框进行多目标跟踪）
 
 检测分数较低的物体，例如遮挡物体，被简单地丢弃，这带来了不可忽略的真实物体丢失和碎片轨迹。
 
