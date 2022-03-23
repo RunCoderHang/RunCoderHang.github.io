@@ -48,7 +48,7 @@ Focus模块，将W、H信息集中到通道空间，输入通道扩充了4倍，
 
 以Yolov5s的结构为例，原始640×640×3的图像输入Focus结构，采用切片操作，先变成320×320×12的特征图，再经过一次32个卷积核的卷积操作，最终变成320×320×32的特征图。
 
-[yolov5s-feature-map](https://runcoderhang.github.io/thumbnails/yolov5-feature-map.png)
+![yolov5s-feature-map](https://runcoderhang.github.io/thumbnails/yolov5-feature-map.png)
 
 ## yolov4和v5均引入了CSP结构，介绍一下它的原理和作用
 
